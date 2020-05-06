@@ -27,4 +27,8 @@ public class SelectionActivity extends AppCompatActivity {
     public void startPaginationActivity(View view) {
         startActivity(new Intent(SelectionActivity.this, PaginationActivity.class));
     }
-}
+
+    public void startOperatorsActivity(View view) {
+        startActivity(new Intent(SelectionActivity.this, OperatorsActivity.class));
+
+    }}
