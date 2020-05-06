@@ -18,8 +18,8 @@ public class PaginationAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
     List<String> items = new ArrayList<>();
     public PaginationAdapter(){}
 
-    void addItems(List<String> items) {
-        this.items = items;
+    void addItems(List<String> itemsList) {
+        this.items.addAll(itemsList);
 
     }
     @NonNull

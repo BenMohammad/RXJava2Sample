@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.rxjava2sample.MyApplication;
 import com.rxjava2sample.R;
+import com.rxjava2sample.ui.pagination.PaginationActivity;
 import com.rxjava2sample.ui.rxbus.RxBusActivity;
 
 public class SelectionActivity extends AppCompatActivity {
@@ -21,5 +22,9 @@ public class SelectionActivity extends AppCompatActivity {
     public void startRxBusActivity(View view) {
         ((MyApplication) getApplication()).sendAutoEvent();
         startActivity(new Intent(SelectionActivity.this, RxBusActivity.class));
+    }
+
+    public void startPaginationActivity(View view) {
+        startActivity(new Intent(SelectionActivity.this, PaginationActivity.class));
     }
 }
