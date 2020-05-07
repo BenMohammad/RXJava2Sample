@@ -9,6 +9,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.rxjava2sample.R;
 import com.rxjava2sample.ui.operators.AsyncSubjectExampleActivity;
+import com.rxjava2sample.ui.operators.BehaviorSubjectExampleActivity;
+import com.rxjava2sample.ui.operators.BufferExampleActivity;
+
+
 
 public class OperatorsActivity extends AppCompatActivity {
 
@@ -21,4 +25,12 @@ public class OperatorsActivity extends AppCompatActivity {
     public void startAsyncSubjectActivity(View view) {
         startActivity(new Intent(OperatorsActivity.this, AsyncSubjectExampleActivity.class));
     }
-}
+
+    public void startBehaviorSubjectActivity(View view) {
+        startActivity(new Intent(OperatorsActivity.this, BehaviorSubjectExampleActivity.class));
+    }
+
+    public void startBufferActivity(View view) {
+        startActivity(new Intent(OperatorsActivity.this, BufferExampleActivity.class));
+
+    }}
