@@ -31,6 +31,7 @@
         <activity android:name=".ui.operators.ConcatExampleActivity"/>
         <activity android:name=".ui.operators.DebounceExampleActivity"/>
         <activity android:name=".ui.operators.DeferExampleActivity"/>
+        <activity android:name=".ui.operators.DelayExampleActivity"/>
     </application>
 
 </manifest>
