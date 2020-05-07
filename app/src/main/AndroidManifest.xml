@@ -27,6 +27,7 @@
         <activity android:name=".ui.operators.AsyncSubjectExampleActivity"/>
         <activity android:name=".ui.operators.BehaviorSubjectExampleActivity"/>
         <activity android:name=".ui.operators.BufferExampleActivity"/>
+        <activity android:name=".ui.operators.CompletableObserverExampleActivity"/>
     </application>
 
 </manifest>

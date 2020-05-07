@@ -11,7 +11,7 @@ import com.rxjava2sample.R;
 import com.rxjava2sample.ui.operators.AsyncSubjectExampleActivity;
 import com.rxjava2sample.ui.operators.BehaviorSubjectExampleActivity;
 import com.rxjava2sample.ui.operators.BufferExampleActivity;
-
+import com.rxjava2sample.ui.operators.CompletableObserverExampleActivity;
 
 
 public class OperatorsActivity extends AppCompatActivity {
@@ -32,5 +32,9 @@ public class OperatorsActivity extends AppCompatActivity {
 
     public void startBufferActivity(View view) {
         startActivity(new Intent(OperatorsActivity.this, BufferExampleActivity.class));
+    }
 
-    }}
+    public void startCompletableObserverActivity(View view) {
+        startActivity(new Intent(OperatorsActivity.this, CompletableObserverExampleActivity.class));
+    }
+}
