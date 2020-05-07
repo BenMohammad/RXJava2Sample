@@ -16,6 +16,7 @@ import com.rxjava2sample.ui.operators.ConcatExampleActivity;
 import com.rxjava2sample.ui.operators.DebounceExampleActivity;
 import com.rxjava2sample.ui.operators.DeferExampleActivity;
 import com.rxjava2sample.ui.operators.DelayExampleActivity;
+import com.rxjava2sample.ui.operators.DisposableExampleActivity;
 
 
 public class OperatorsActivity extends AppCompatActivity {
@@ -56,5 +57,10 @@ public class OperatorsActivity extends AppCompatActivity {
 
     public void startDelayActivity(View view) {
         startActivity(new Intent(OperatorsActivity.this, DelayExampleActivity.class));
+    }
 
-    }}
+    public void startDisposableActivity(View view) {
+        startActivity(new Intent(OperatorsActivity.this, DisposableExampleActivity.class));
+
+    }
+}

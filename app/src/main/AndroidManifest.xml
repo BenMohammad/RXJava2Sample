@@ -32,6 +32,7 @@
         <activity android:name=".ui.operators.DebounceExampleActivity"/>
         <activity android:name=".ui.operators.DeferExampleActivity"/>
         <activity android:name=".ui.operators.DelayExampleActivity"/>
+        <activity android:name=".ui.operators.DisposableExampleActivity"/>
     </application>
 
 </manifest>
