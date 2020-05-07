@@ -14,6 +14,7 @@ import com.rxjava2sample.ui.operators.BufferExampleActivity;
 import com.rxjava2sample.ui.operators.CompletableObserverExampleActivity;
 import com.rxjava2sample.ui.operators.ConcatExampleActivity;
 import com.rxjava2sample.ui.operators.DebounceExampleActivity;
+import com.rxjava2sample.ui.operators.DeferExampleActivity;
 
 
 public class OperatorsActivity extends AppCompatActivity {
@@ -47,4 +48,8 @@ public class OperatorsActivity extends AppCompatActivity {
     public void startDebounceActivity(View view) {
         startActivity(new Intent(OperatorsActivity.this, DebounceExampleActivity.class));
     }
-}
+
+    public void startDeferActivity(View view) {
+        startActivity(new Intent(OperatorsActivity.this, DeferExampleActivity.class));
+
+    }}
