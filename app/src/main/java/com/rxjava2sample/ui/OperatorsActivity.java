@@ -13,6 +13,7 @@ import com.rxjava2sample.ui.operators.BehaviorSubjectExampleActivity;
 import com.rxjava2sample.ui.operators.BufferExampleActivity;
 import com.rxjava2sample.ui.operators.CompletableObserverExampleActivity;
 import com.rxjava2sample.ui.operators.ConcatExampleActivity;
+import com.rxjava2sample.ui.operators.DebounceExampleActivity;
 
 
 public class OperatorsActivity extends AppCompatActivity {
@@ -41,5 +42,9 @@ public class OperatorsActivity extends AppCompatActivity {
 
     public void startConcatActivity(View view) {
         startActivity(new Intent(OperatorsActivity.this, ConcatExampleActivity.class));
+    }
 
-    }}
+    public void startDebounceActivity(View view) {
+        startActivity(new Intent(OperatorsActivity.this, DebounceExampleActivity.class));
+    }
+}

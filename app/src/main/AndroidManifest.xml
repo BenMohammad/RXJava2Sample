@@ -29,6 +29,7 @@
         <activity android:name=".ui.operators.BufferExampleActivity"/>
         <activity android:name=".ui.operators.CompletableObserverExampleActivity"/>
         <activity android:name=".ui.operators.ConcatExampleActivity"/>
+        <activity android:name=".ui.operators.DebounceExampleActivity"/>
     </application>
 
 </manifest>
