@@ -28,6 +28,7 @@
         <activity android:name=".ui.operators.BehaviorSubjectExampleActivity"/>
         <activity android:name=".ui.operators.BufferExampleActivity"/>
         <activity android:name=".ui.operators.CompletableObserverExampleActivity"/>
+        <activity android:name=".ui.operators.ConcatExampleActivity"/>
     </application>
 
 </manifest>
