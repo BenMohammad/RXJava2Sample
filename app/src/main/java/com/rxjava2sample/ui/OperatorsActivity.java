@@ -18,6 +18,7 @@ import com.rxjava2sample.ui.operators.DeferExampleActivity;
 import com.rxjava2sample.ui.operators.DelayExampleActivity;
 import com.rxjava2sample.ui.operators.DisposableExampleActivity;
 import com.rxjava2sample.ui.operators.DistinctExampleActivity;
+import com.rxjava2sample.ui.operators.FilterExampleActivity;
 
 
 public class OperatorsActivity extends AppCompatActivity {
@@ -68,4 +69,8 @@ public class OperatorsActivity extends AppCompatActivity {
     public void startDistinctActivity(View view) {
         startActivity(new Intent(OperatorsActivity.this, DistinctExampleActivity.class));
     }
-}
+
+    public void startFilterActivity(View view) {
+        startActivity(new Intent(OperatorsActivity.this, FilterExampleActivity.class));
+
+    }}
