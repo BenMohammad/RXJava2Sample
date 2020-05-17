@@ -53,6 +53,7 @@
         <activity android:name=".ui.operators.TakeOperatorBaseActivity"/>
         <activity android:name=".ui.operators.TakeUntilExampleActivity"/>
         <activity android:name=".ui.operators.TakeWhileExampleActivity"/>
+        <activity android:name=".ui.operators.ThrottleFirstExampleActivity"/>
     </application>
 
 </manifest>

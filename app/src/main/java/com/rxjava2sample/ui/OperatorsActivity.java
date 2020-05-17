@@ -36,6 +36,7 @@ import com.rxjava2sample.ui.operators.SwitchMapExampleActivity;
 import com.rxjava2sample.ui.operators.TakeExampleActivity;
 import com.rxjava2sample.ui.operators.TakeUntilExampleActivity;
 import com.rxjava2sample.ui.operators.TakeWhileExampleActivity;
+import com.rxjava2sample.ui.operators.ThrottleFirstExampleActivity;
 
 
 public class OperatorsActivity extends AppCompatActivity {
@@ -161,4 +162,8 @@ public class OperatorsActivity extends AppCompatActivity {
     public void startTakeWhileActivity(View view) {
         startActivity(new Intent(OperatorsActivity.this, TakeWhileExampleActivity.class));
     }
-}
+
+    public void startThrottleFirstActivity(View view) {
+        startActivity(new Intent(OperatorsActivity.this, ThrottleFirstExampleActivity.class));
+
+    }}
