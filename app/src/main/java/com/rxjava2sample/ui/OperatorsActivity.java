@@ -21,6 +21,7 @@ import com.rxjava2sample.ui.operators.DistinctExampleActivity;
 import com.rxjava2sample.ui.operators.FilterExampleActivity;
 import com.rxjava2sample.ui.operators.FlowableExampleActivity;
 import com.rxjava2sample.ui.operators.IntervalExampleActivity;
+import com.rxjava2sample.ui.operators.LastOperatorExampleActivity;
 
 
 public class OperatorsActivity extends AppCompatActivity {
@@ -82,5 +83,9 @@ public class OperatorsActivity extends AppCompatActivity {
 
     public void startIntervalActivity(View view) {
         startActivity(new Intent(OperatorsActivity.this, IntervalExampleActivity.class));
+    }
 
-    }}
+    public void startLastOperatorActivity(View view) {
+        startActivity(new Intent(OperatorsActivity.this, LastOperatorExampleActivity.class));
+    }
+}
