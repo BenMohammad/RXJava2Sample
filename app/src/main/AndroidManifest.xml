@@ -50,6 +50,8 @@
         <activity android:name=".ui.operators.SkipExampleActivity"/>
         <activity android:name=".ui.operators.SwitchMapExampleActivity"/>
         <activity android:name=".ui.operators.TakeExampleActivity"/>
+        <activity android:name=".ui.operators.TakeOperatorBaseActivity"/>
+        <activity android:name=".ui.operators.TakeUntilExampleActivity"/>
     </application>
 
 </manifest>

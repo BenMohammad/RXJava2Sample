@@ -34,6 +34,7 @@ import com.rxjava2sample.ui.operators.SingleObserverExampleActivity;
 import com.rxjava2sample.ui.operators.SkipExampleActivity;
 import com.rxjava2sample.ui.operators.SwitchMapExampleActivity;
 import com.rxjava2sample.ui.operators.TakeExampleActivity;
+import com.rxjava2sample.ui.operators.TakeUntilExampleActivity;
 
 
 public class OperatorsActivity extends AppCompatActivity {
@@ -150,4 +151,11 @@ public class OperatorsActivity extends AppCompatActivity {
     public void startTakeActivity(View view) {
         startActivity(new Intent(OperatorsActivity.this, TakeExampleActivity.class));
 
-    }}
+    }
+
+    public void startTakeUntilActivity(View view) {
+        startActivity(new Intent(OperatorsActivity.this, TakeUntilExampleActivity.class));
+
+    }
+
+}
