@@ -49,6 +49,7 @@
         <activity android:name=".ui.operators.SingleObserverExampleActivity"/>
         <activity android:name=".ui.operators.SkipExampleActivity"/>
         <activity android:name=".ui.operators.SwitchMapExampleActivity"/>
+        <activity android:name=".ui.operators.TakeExampleActivity"/>
     </application>
 
 </manifest>
