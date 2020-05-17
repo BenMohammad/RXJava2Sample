@@ -31,6 +31,7 @@ import com.rxjava2sample.ui.operators.ReplaySubjectExampleActivity;
 import com.rxjava2sample.ui.operators.ScanExampleActivity;
 import com.rxjava2sample.ui.operators.SimpleExampleActivity;
 import com.rxjava2sample.ui.operators.SingleObserverExampleActivity;
+import com.rxjava2sample.ui.operators.SkipExampleActivity;
 
 
 public class OperatorsActivity extends AppCompatActivity {
@@ -135,4 +136,8 @@ public class OperatorsActivity extends AppCompatActivity {
     public void startSingleObserverActivity(View view) {
         startActivity(new Intent(OperatorsActivity.this, SingleObserverExampleActivity.class));
     }
-}
+
+    public void startSkipActivity(View view) {
+        startActivity(new Intent(OperatorsActivity.this, SkipExampleActivity.class));
+
+    }}

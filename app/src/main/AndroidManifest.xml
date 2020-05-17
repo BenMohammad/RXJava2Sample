@@ -47,6 +47,7 @@
         <activity android:name=".ui.operators.ScanExampleActivity"/>
         <activity android:name=".ui.operators.SimpleExampleActivity"/>
         <activity android:name=".ui.operators.SingleObserverExampleActivity"/>
+        <activity android:name=".ui.operators.SkipExampleActivity"/>
     </application>
 
 </manifest>
