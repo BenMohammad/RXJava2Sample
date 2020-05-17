@@ -40,6 +40,7 @@ import com.rxjava2sample.ui.operators.ThrottleFirstExampleActivity;
 import com.rxjava2sample.ui.operators.ThrottleLastExampleActivity;
 import com.rxjava2sample.ui.operators.TimerExampleActivity;
 import com.rxjava2sample.ui.operators.WindowExampleActivity;
+import com.rxjava2sample.ui.operators.ZipExampleActivity;
 
 
 public class OperatorsActivity extends AppCompatActivity {
@@ -180,5 +181,9 @@ public class OperatorsActivity extends AppCompatActivity {
 
     public void startWindowActivity(View view) {
         startActivity(new Intent(OperatorsActivity.this, WindowExampleActivity.class));
+    }
+
+    public void startZipActivity(View view) {
+        startActivity(new Intent(OperatorsActivity.this, ZipExampleActivity.class));
 
     }}

@@ -57,6 +57,7 @@
         <activity android:name=".ui.operators.ThrottleLastExampleActivity"/>
         <activity android:name=".ui.operators.TimerExampleActivity"/>
         <activity android:name=".ui.operators.WindowExampleActivity"/>
+        <activity android:name=".ui.operators.ZipExampleActivity"/>
     </application>
 
 </manifest>
