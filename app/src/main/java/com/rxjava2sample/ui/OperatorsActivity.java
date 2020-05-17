@@ -185,5 +185,5 @@ public class OperatorsActivity extends AppCompatActivity {
 
     public void startZipActivity(View view) {
         startActivity(new Intent(OperatorsActivity.this, ZipExampleActivity.class));
-
-    }}
+    }
+}

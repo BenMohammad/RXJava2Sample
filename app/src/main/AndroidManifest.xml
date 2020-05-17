@@ -58,6 +58,7 @@
         <activity android:name=".ui.operators.TimerExampleActivity"/>
         <activity android:name=".ui.operators.WindowExampleActivity"/>
         <activity android:name=".ui.operators.ZipExampleActivity"/>
+        <activity android:name=".ui.cache.CacheExampleActivity"/>
     </application>
 
 </manifest>
