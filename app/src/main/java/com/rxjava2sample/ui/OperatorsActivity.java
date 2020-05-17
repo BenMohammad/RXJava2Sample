@@ -23,6 +23,7 @@ import com.rxjava2sample.ui.operators.FlowableExampleActivity;
 import com.rxjava2sample.ui.operators.IntervalExampleActivity;
 import com.rxjava2sample.ui.operators.LastOperatorExampleActivity;
 import com.rxjava2sample.ui.operators.MapExampleActivity;
+import com.rxjava2sample.ui.operators.MergeExampleActivity;
 
 
 public class OperatorsActivity extends AppCompatActivity {
@@ -93,4 +94,8 @@ public class OperatorsActivity extends AppCompatActivity {
     public void startMapActivity(View view) {
         startActivity(new Intent(OperatorsActivity.this, MapExampleActivity.class));
     }
-}
+
+    public void startMergeActivity(View view) {
+        startActivity(new Intent(OperatorsActivity.this, MergeExampleActivity.class));
+
+    }}

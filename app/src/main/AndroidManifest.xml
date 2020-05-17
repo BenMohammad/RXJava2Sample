@@ -39,6 +39,7 @@
         <activity android:name=".ui.operators.IntervalExampleActivity"/>
         <activity android:name=".ui.operators.LastOperatorExampleActivity"/>
         <activity android:name=".ui.operators.MapExampleActivity"/>
+        <activity android:name=".ui.operators.MergeExampleActivity"/>
     </application>
 
 </manifest>
