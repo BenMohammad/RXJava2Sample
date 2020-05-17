@@ -55,6 +55,7 @@
         <activity android:name=".ui.operators.TakeWhileExampleActivity"/>
         <activity android:name=".ui.operators.ThrottleFirstExampleActivity"/>
         <activity android:name=".ui.operators.ThrottleLastExampleActivity"/>
+        <activity android:name=".ui.operators.TimerExampleActivity"/>
     </application>
 
 </manifest>
