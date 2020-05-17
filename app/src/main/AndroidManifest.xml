@@ -38,6 +38,7 @@
         <activity android:name=".ui.operators.FlowableExampleActivity"/>
         <activity android:name=".ui.operators.IntervalExampleActivity"/>
         <activity android:name=".ui.operators.LastOperatorExampleActivity"/>
+        <activity android:name=".ui.operators.MapExampleActivity"/>
     </application>
 
 </manifest>
