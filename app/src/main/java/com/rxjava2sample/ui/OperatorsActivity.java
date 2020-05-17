@@ -26,6 +26,7 @@ import com.rxjava2sample.ui.operators.MapExampleActivity;
 import com.rxjava2sample.ui.operators.MergeExampleActivity;
 import com.rxjava2sample.ui.operators.PublishSubjectExampleActivity;
 import com.rxjava2sample.ui.operators.ReduceExampleActivity;
+import com.rxjava2sample.ui.operators.ReplayExampleActivity;
 
 
 public class OperatorsActivity extends AppCompatActivity {
@@ -108,5 +109,9 @@ public class OperatorsActivity extends AppCompatActivity {
 
     public void startReduceActivity(View view) {
         startActivity(new Intent(OperatorsActivity.this, ReduceExampleActivity.class));
+    }
+
+    public void startReplayActivity(View view) {
+        startActivity(new Intent(OperatorsActivity.this, ReplayExampleActivity.class));
 
     }}

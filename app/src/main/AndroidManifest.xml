@@ -42,6 +42,7 @@
         <activity android:name=".ui.operators.MergeExampleActivity"/>
         <activity android:name=".ui.operators.PublishSubjectExampleActivity"/>
         <activity android:name=".ui.operators.ReduceExampleActivity"/>
+        <activity android:name=".ui.operators.ReplayExampleActivity"/>
     </application>
 
 </manifest>
