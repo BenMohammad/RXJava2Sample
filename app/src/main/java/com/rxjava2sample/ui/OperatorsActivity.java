@@ -29,6 +29,7 @@ import com.rxjava2sample.ui.operators.ReduceExampleActivity;
 import com.rxjava2sample.ui.operators.ReplayExampleActivity;
 import com.rxjava2sample.ui.operators.ReplaySubjectExampleActivity;
 import com.rxjava2sample.ui.operators.ScanExampleActivity;
+import com.rxjava2sample.ui.operators.SimpleExampleActivity;
 
 
 public class OperatorsActivity extends AppCompatActivity {
@@ -124,5 +125,10 @@ public class OperatorsActivity extends AppCompatActivity {
 
     public void startScanActivity(View view) {
         startActivity(new Intent(OperatorsActivity.this, ScanExampleActivity.class));
+    }
 
-    }}
+    public void startSimpleActivity(View view) {
+        startActivity(new Intent(OperatorsActivity.this, SimpleExampleActivity.class));
+
+    }
+}

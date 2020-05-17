@@ -45,6 +45,7 @@
         <activity android:name=".ui.operators.ReplayExampleActivity"/>
         <activity android:name=".ui.operators.ReplaySubjectExampleActivity"/>
         <activity android:name=".ui.operators.ScanExampleActivity"/>
+        <activity android:name=".ui.operators.SimpleExampleActivity"/>
     </application>
 
 </manifest>
