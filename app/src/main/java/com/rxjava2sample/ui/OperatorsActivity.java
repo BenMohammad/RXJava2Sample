@@ -37,6 +37,7 @@ import com.rxjava2sample.ui.operators.TakeExampleActivity;
 import com.rxjava2sample.ui.operators.TakeUntilExampleActivity;
 import com.rxjava2sample.ui.operators.TakeWhileExampleActivity;
 import com.rxjava2sample.ui.operators.ThrottleFirstExampleActivity;
+import com.rxjava2sample.ui.operators.ThrottleLastExampleActivity;
 
 
 public class OperatorsActivity extends AppCompatActivity {
@@ -165,5 +166,9 @@ public class OperatorsActivity extends AppCompatActivity {
 
     public void startThrottleFirstActivity(View view) {
         startActivity(new Intent(OperatorsActivity.this, ThrottleFirstExampleActivity.class));
+    }
+
+    public void startThrottleLastActivity(View view) {
+        startActivity(new Intent(OperatorsActivity.this, ThrottleLastExampleActivity.class));
 
     }}
