@@ -59,6 +59,7 @@
         <activity android:name=".ui.operators.WindowExampleActivity"/>
         <activity android:name=".ui.operators.ZipExampleActivity"/>
         <activity android:name=".ui.cache.CacheExampleActivity"/>
+        <activity android:name=".ui.networking.NetworkingActivity"/>
     </application>
 
 </manifest>

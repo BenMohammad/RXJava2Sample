@@ -9,6 +9,7 @@ import android.view.View;
 import com.rxjava2sample.MyApplication;
 import com.rxjava2sample.R;
 import com.rxjava2sample.ui.cache.CacheExampleActivity;
+import com.rxjava2sample.ui.networking.NetworkingActivity;
 import com.rxjava2sample.ui.pagination.PaginationActivity;
 import com.rxjava2sample.ui.rxbus.RxBusActivity;
 
@@ -38,4 +39,8 @@ public class SelectionActivity extends AppCompatActivity {
         startActivity(new Intent(SelectionActivity.this, CacheExampleActivity.class));
     }
 
+    public void startNetworkingActivity(View view) {
+        startActivity(new Intent(SelectionActivity.this, NetworkingActivity.class));
+
+    }
 }
