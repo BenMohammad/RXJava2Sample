@@ -36,6 +36,7 @@
         <activity android:name=".ui.operators.DistinctExampleActivity"/>
         <activity android:name=".ui.operators.FilterExampleActivity"/>
         <activity android:name=".ui.operators.FlowableExampleActivity"/>
+        <activity android:name=".ui.operators.IntervalExampleActivity"/>
     </application>
 
 </manifest>

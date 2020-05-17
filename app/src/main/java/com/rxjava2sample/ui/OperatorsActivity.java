@@ -20,6 +20,7 @@ import com.rxjava2sample.ui.operators.DisposableExampleActivity;
 import com.rxjava2sample.ui.operators.DistinctExampleActivity;
 import com.rxjava2sample.ui.operators.FilterExampleActivity;
 import com.rxjava2sample.ui.operators.FlowableExampleActivity;
+import com.rxjava2sample.ui.operators.IntervalExampleActivity;
 
 
 public class OperatorsActivity extends AppCompatActivity {
@@ -77,5 +78,9 @@ public class OperatorsActivity extends AppCompatActivity {
 
     public void startFlowableActivity(View view) {
         startActivity(new Intent(OperatorsActivity.this, FlowableExampleActivity.class));
+    }
+
+    public void startIntervalActivity(View view) {
+        startActivity(new Intent(OperatorsActivity.this, IntervalExampleActivity.class));
 
     }}
