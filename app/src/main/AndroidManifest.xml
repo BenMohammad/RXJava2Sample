@@ -33,6 +33,7 @@
         <activity android:name=".ui.operators.DeferExampleActivity"/>
         <activity android:name=".ui.operators.DelayExampleActivity"/>
         <activity android:name=".ui.operators.DisposableExampleActivity"/>
+        <activity android:name=".ui.operators.DistinctExampleActivity"/>
     </application>
 
 </manifest>
