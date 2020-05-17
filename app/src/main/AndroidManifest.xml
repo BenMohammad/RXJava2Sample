@@ -40,6 +40,8 @@
         <activity android:name=".ui.operators.LastOperatorExampleActivity"/>
         <activity android:name=".ui.operators.MapExampleActivity"/>
         <activity android:name=".ui.operators.MergeExampleActivity"/>
+        <activity android:name=".ui.operators.PublishSubjectExampleActivity"/>
+        <activity android:name=".ui.operators.ReduceExampleActivity"/>
     </application>
 
 </manifest>

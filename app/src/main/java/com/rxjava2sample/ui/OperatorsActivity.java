@@ -24,6 +24,8 @@ import com.rxjava2sample.ui.operators.IntervalExampleActivity;
 import com.rxjava2sample.ui.operators.LastOperatorExampleActivity;
 import com.rxjava2sample.ui.operators.MapExampleActivity;
 import com.rxjava2sample.ui.operators.MergeExampleActivity;
+import com.rxjava2sample.ui.operators.PublishSubjectExampleActivity;
+import com.rxjava2sample.ui.operators.ReduceExampleActivity;
 
 
 public class OperatorsActivity extends AppCompatActivity {
@@ -97,5 +99,14 @@ public class OperatorsActivity extends AppCompatActivity {
 
     public void startMergeActivity(View view) {
         startActivity(new Intent(OperatorsActivity.this, MergeExampleActivity.class));
+
+    }
+
+    public void startPublishSubjectActivity(View view) {
+        startActivity(new Intent(OperatorsActivity.this, PublishSubjectExampleActivity.class));
+    }
+
+    public void startReduceActivity(View view) {
+        startActivity(new Intent(OperatorsActivity.this, ReduceExampleActivity.class));
 
     }}
