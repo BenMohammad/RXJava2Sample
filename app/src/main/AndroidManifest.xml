@@ -35,6 +35,7 @@
         <activity android:name=".ui.operators.DisposableExampleActivity"/>
         <activity android:name=".ui.operators.DistinctExampleActivity"/>
         <activity android:name=".ui.operators.FilterExampleActivity"/>
+        <activity android:name=".ui.operators.FlowableExampleActivity"/>
     </application>
 
 </manifest>
